@@ -1,0 +1,115 @@
+@font-face {
+    font-family: hanalei;
+    src: url(HanaleiFill-Regular.ttf);
+}
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.name:hover{
+    letter-spacing: 3px;
+}
+h1:hover{
+    letter-spacing: 3px;
+}
+a:hover{
+    letter-spacing: 3px;
+}
+.hov:hover{
+    color: #51e489;
+}
+
+.banner{
+    background-image:url("personal-website/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-family: hanalei;
+    font-weight: 700;
+    font-size: 50px;
+}
+section{
+    height: 700px;
+}
+
+.name{
+    color:hotpink;
+}
+.hlf-wdth{
+    float: left;
+    width: 40%;
+    margin: 20px;
+    margin-left: 110px;
+}
+.hlf-wdth img{
+    width: 90%;
+}
+.ancor{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, hotpink, pink);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.biography{
+    background-image: url("personal-website/biography-bg.png");
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+#latest{
+    text-align: center;
+    margin-bottom: -50px;
+}
+.latest-work{
+    padding-top: 150px;
+    margin-left: 60px;
+    height:500px; 
+    background-image: url("personal-website/latest-work-bg.png"); 
+    background-size: 110%;
+    background-repeat: no-repeat; 
+    background-position:right;
+}
+.late-img{
+    float: left;
+
+}
+.late-img img{
+    width: 375px;
+    padding-left: 20px;
+}
+.footer{
+    background-image: url(personal-website/footer-bg.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#color-gray{
+    color: rgb(206, 206, 206);
+}
+.author{
+    text-align: center;
+    margin-bottom: 25px
+}
+.about{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.leave-message{
+    text-align: center;
+    background-image:linear-gradient(45deg,hotpink,pink ) ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px ;
+    padding-left: 10px ;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+}
+.say{
+    color: rgb(86, 125, 255);
+}
